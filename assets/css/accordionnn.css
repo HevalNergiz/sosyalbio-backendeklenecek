@@ -1,0 +1,250 @@
+.accordion-item:first-of-type {
+  border-radius: 12px;
+}
+
+.accordion-item {
+  background-color: #f2f4f8;
+  border: 0px;
+  margin: 1rem 0;
+  border-radius: 12px!important;
+  box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
+}
+
+.accordion-header {
+  font-family: 'Gilroy-Bold ☞';
+  box-shadow: none;
+  border: none;
+  border-bottom: 0px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  /*border-radius: 12px;*/
+}
+
+.accordion-collapse.collapse {
+  background-color: #f2f4f8;
+  box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
+  border-bottom-left-radius: 12px!important;
+  border-bottom-right-radius: 12px!important;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 12px;
+}
+
+.accordion-button {
+  position: relative;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #f2f4f8!important;
+  border: 0;
+  border-radius: 12px;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease!important;
+  border: none!important;
+  box-shadow: none;
+  border: 0px;
+}
+
+.mb-0, .mb-0.text-white, .fs-24.text-white {
+  color: #333333!important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.tepebaglantilar:hover {
+  color: #ededed;
+}
+
+.apperance .profileimage {
+  margin-bottom: 1rem;
+}
+
+.linkbox.button2-outline .cash {
+  color: var(--button-color);
+}
+
+.onizlemecontent .bioaciklama {
+  font-size: .7rem;
+}
+
+.linkboxbaslik {
+}
+
+.baglantilarbloktools .switch {
+  margin-left: 1rem;
+}
+
+.baglantilarbloktools.mobildegorun .switch {
+  margin-left: 0;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-item {
+  font-family: 'Gilroy-Bold ☞';
+  height: 32px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-menu.show {
+  min-width: 0;
+  border-radius: 10px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.03)!important;
+  background-color: #ffffff;
+  left: -20px;
+}
+
+.baglantilarbloktools.mobildegorun .btn {
+  background: none;
+  color: #323232;
+  border: none;
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+
+.baglantilarbloktools .mobildegorun .dropdown-item .goruntulenmesayisi {
+  background: none;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-item:hover, .baglantilarbloktools.mobildegorun .dropdown-item:focus {
+  background-color: #ffffff;
+}
+
+.baglantilarbloktools.mobildegorun {
+  top: calc(50% - 21px);
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-menu::before {
+  /*width: 1rem;*/
+  /*height: 1rem;*/
+  display: flex;
+  /*background-color: #212529;*/
+  content: "";
+  top: -8px;
+  right: calc(50% - -12px);
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #d8d8d8;
+}
+
+@media (min-width: 576px) {
+  .baglantilarbloktools.mobildegorun {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .baglantilarbloktools.mobildegorun {
+    display: flex;
+  }
+}
+
+.baglantilarbloktools .sil {
+  margin-left: 1rem;
+}
+
+.baglantilarbloktools .sil:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .baglantilarbloktools {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .ozetcol.qrcoll {
+    border-width: 0;
+  }
+}
+
+.logged .outline-button.log-reg-button {
+  display: none;
+}
+
+.hesapdropdownu .hesappanellink {
+  display: none;
+}
+
+.siparisozeti {
+  margin-bottom: 0;
+}
+
+.siparisozetiicerik {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.enonecikancol h3:hover {
+}
+
+.buyukcardrow {
+  box-shadow: 0px 10px 30px #aeaec029;
+}
+
+.buyukcardlink:hover {
+  text-decoration: underline;
+  color: #212529;
+}
+
+.buyukcardlink {
+  text-decoration: none;
+}
+
+.homepage footer {
+  max-width: 100%;
+  border-radius: 0;
+  margin-top: -3rem!important;
+}
+
+.adminpanel .navbar {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.adminpanel header {
+  background-color: #00cec4;
+}
+
+.renkliarkaplan .navbar-light .navbar-toggler {
+  border: none;
+}
+
